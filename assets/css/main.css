@@ -1,0 +1,194 @@
+/* This is the main.css file for Tiger Trail's microsite. */
+
+@font-face {font-family:"somethingwild-Regular";
+  src: url("https://kyledwagner.github.io/2-day.laos-adventures/assets/fonts/Something_Wild/somethingwild-Regular.eot"),
+  url("https://kyledwagner.github.io/2-day.laos-adventures/assets/fonts/Something_Wild/somethingwild-Regular.woff2") format("woff2"),
+  url("https://kyledwagner.github.io/2-day.laos-adventures/assets/fonts/Something_Wild/somethingwild-Regular.woff") format("woff"),
+  url("https://kyledwagner.github.io/2-day.laos-adventures/assets/fonts/Something_Wild/somethingwild-Regular.ttf") format("truetype"),
+  url("https://kyledwagner.github.io/2-day.laos-adventures/assets/fonts/Something_Wild/somethingwild-Regular.svg#somethingwild-regular") format("svg");font-weight:normal;font-style:normal;}
+
+.navbar
+{
+ background-color:#a71c20;
+}
+
+.tt-color
+{
+ background-color:#a71c20 !important;
+}
+
+.page-footer {
+    padding-top: 0;
+}
+
+.carousel {
+    height: 65vh;
+}
+
+nav .nav-wrapper {
+    background-color: #a71c20;
+}
+
+p, .collapsible-header, .collection .collection-item {
+    font-size: 1.1rem;
+}
+
+.card .card-image .card-title {
+  padding-bottom: 0px;
+}
+
+h1 {
+  font-family: somethingwild-regular;
+  font-size: 72pt;
+  margin-top: -1.5rem !important;
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+  line-height: 65% !important;
+}
+
+h5 {
+  margin-bottom: 1.5rem !important;
+}
+
+h6 {
+  margin-top: 1rem !important;
+}
+
+/* The hero image */
+.hero-image-1 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/luang-prabang-2561537.jpg");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* The hero image */
+.hero-image-2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/hdtravels_F55B18B48555445C991066E943377ACB.jpg");
+
+    /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* The hero image */
+.hero-image-3 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/northern-laos-phongsali-nam-khan-food-meal-spread-on-bamboo-leaf-tiger-trail-photo-by-cyril-eberle-CEB-9483.jpg");
+
+    /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* The hero image */
+.hero-image-4 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/laos-luang-prabang-pak-ou-cave-tiger-trail-photo-by-cyril-eberle-CEB_2563.jpg");
+
+    /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* The hero image */
+.hero-image-5 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/balcon2820.jpg");
+
+    /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* The hero image */
+.hero-image-6 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/laos-luang-prabang-tat-kuang-si-waterfall-photo-by-cyril-eberle-CEB_4304_.jpg");
+
+    /* Set a specific height */
+    height: 60%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+    /* The hero image */
+.hero-image-7 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url("/assets/images/hero/TT-3-day-hero.jpg");
+
+  /* Set a specific height */
+  height: 60%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 50% !important;
+      }
+    }
+
+.card .card-title {
+    font-size: 28px;
+    font-weight: 400;
+ }
+
+ .dropdown-mob {
+   position: absolute;
+   top: 100% !important;
+ }
+
+ @media (max-width: 320px) {
+  .carousel {
+    height: 80vh !important;
+    }
+  }
+
+  .card-panel {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
